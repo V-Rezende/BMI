@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>BMI Calculator</title>
+  </head>
+  <body>
+        <div class="container">
+                <h1>Check your Body Mass Index - BMI</h1>
+                        <p id="introText" class="text-center">Enter your weight and height below to check your BMI result.</p>
+                                <div class="panel">
+                                        <form>
+                                                <div id="weightInput">
+                                                        <p>Enter your weight(Kg) here:</p>
+                                                        <input type="number" id="weight" pattern="[0-9]*" name="a">
+                                                        <label for="weight">Weight in Kg</label>
+                                                </div>
+                                                <div id="heightInput">
+                                                        <p>Enter your height(cm) here:</p>
+                                                        <input type="number" id="height" pattern="[0-9]*" name="b">
+                                                        <label for="height">Height in cm</label>
+                                                </div>
+                                                <button class="btn btn-primary" type="button" onclick="calculate()">Calculate BMI</button>
+                                        </form>
+                                                <div id="res" class="text-center">Your BMI results will appear here...</div>
+
+                                </div>
+        </div>
+            <script src="main.js"></script>
+  </body>
+</html>

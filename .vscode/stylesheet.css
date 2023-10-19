@@ -1,0 +1,94 @@
+
+body {
+    background-color: #8cb7e6;
+    text-align: center;
+}
+
+button {
+    outline: none;
+    
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.text-center {
+    margin-top: 10px;
+
+}
+
+input {
+    width: 100%;
+    padding: 5px 15px;
+    border: 2px solid #313144;
+    margin-bottom: 5px;
+    background-color: #c1d4e8;
+    outline: none;
+    color: #050956;
+    font-size: 14px;
+}
+
+label {
+    margin-top: 2px;
+    font-size: smaller;
+}
+
+input:focus {
+    border: 2px solid rgba(46, 65, 210, 0.4);
+    background-color: rgb(53, 70, 151);
+
+}
+
+form {
+    width: 500px;
+    margin-top: 50px;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    color: #000;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .4);
+}
+
+form p {
+    margin-bottom: 5px;
+
+}
+
+form p:nth-child(1) {
+    margin-top: 20px;
+}
+
+.panel {
+    margin-top: 40px;
+    float: none;
+
+}
+
+@media (min-width: 768px) {
+    .panel {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .panel {
+        align-items: center;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
